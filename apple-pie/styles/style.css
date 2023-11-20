@@ -15,10 +15,75 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
+/* Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin: 100px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header-background {
+  /* Set the background image */
+  background-image: url('/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 1300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+
+.recipe-text {
+  /* Center the text below the header */
+  text-align: center;
+  margin-top: 20px; /* Add some space between the header and the text */
+}
+
+.recipe-text p {
+  /* Style the paragraph text */
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 850px; /* Limit the width of the text */
+  margin: 0 auto; /* Center the text horizontally */
+}
+
+.recipe-info {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Center the recipe-info horizontally with some margin */
+}
+
+.ingredients-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.ingredients-list li {
+  margin-bottom: 8px;
+}
+
+.cooking-info img {
+  max-width: 800px;
+  margin: 20px auto; /* Ensure the image is responsive and doesn't exceed its container */
+}
+
+.directions-text {
+  text-align: left;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Center the directions horizontally with some margin */
+}
+
+.directions-text p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.directions-container {
+  text-align: center;
+  margin: 20px auto; /* Center the directions-container horizontally with some margin */
+}
